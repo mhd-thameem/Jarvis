@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment Secrets
+.env
+
+# Local Storage, SQLite, and Audio Caches
+storage/*.db
+storage/*.db-journal
+*.wav
+*.mp3
+
+# Model Downloads (Piper ONNX / Whisper caches)
+models/
+*.onnx
